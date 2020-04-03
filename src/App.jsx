@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import styled from "styled-components";
 
 import Home from "./Containers/Home/Home";
@@ -30,10 +30,10 @@ const HomeLink = styled.a`
 
 function App() {
   return (
-    <Router basename="/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <AppBody>
         <AppHeader>
-          <HomeLink href="/">
+          <HomeLink href={process.env.PUBLIC_URL}>
             <img alt="Home" src={SynthLogo} />
           </HomeLink>
           <h1>{"Audio Hardware Archive"}</h1>
@@ -46,7 +46,7 @@ function App() {
           <Route exact path="/tr-707" render={() => <Tr707 />} />
         </Switch>
       </AppBody>
-    </Router>
+    </BrowserRouter>
   );
 }
 

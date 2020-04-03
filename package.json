@@ -1,7 +1,7 @@
 {
   "name": "audio-hardware-archive",
   "version": "0.1.0",
-  "homepage": "https://martinfoakes.github.io/audio-hardware-archive/",
+  "homepage": "http://martinfoakes.github.io/audio-hardware-archive",
   "author": "Martin Foakes",
   "dependencies": {
     "@svgr/webpack": "4.3.3",
