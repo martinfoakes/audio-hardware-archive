@@ -58,9 +58,13 @@
     "eslint-config-airbnb": "^15.0.2",
     "eslint-loader": "3.0.3",
     "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-react": "7.19.0",
-    "eslint-plugin-react-hooks": "^1.6.1"
+    "eslint-plugin-react-hooks": "^1.6.1",
+    "stylelint": "^10.1.0",
+    "stylelint-config-recommended": "^2.2.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.8.0"
   },
   "scripts": {
     "start": "node scripts/start.js",
