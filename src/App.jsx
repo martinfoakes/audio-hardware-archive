@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 import Home from "./Containers/Home/Home";
 import Tr909 from "./Containers/TR909/Tr909";
+import Tr808 from "./Containers/TR808/Tr808";
+import Tr707 from "./Containers/TR707/Tr707";
 import SynthLogo from "./Img/synth-logo.svg";
 import GlobalStyle from "./Style/GlobalStyle";
 
@@ -18,10 +20,12 @@ const AppHeader = styled.header`
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0 2rem;
 `;
 
 const HomeLink = styled.a`
   width: 4rem;
+  margin: 0 1rem 0 0;
 `;
 
 function App() {
@@ -38,6 +42,8 @@ function App() {
         <Switch>
           <Route exact path="/" render={() => <Home />} />
           <Route exact path="/tr-909" render={() => <Tr909 />} />
+          <Route exact path="/tr-808" render={() => <Tr808 />} />
+          <Route exact path="/tr-707" render={() => <Tr707 />} />
         </Switch>
       </AppBody>
     </Router>
