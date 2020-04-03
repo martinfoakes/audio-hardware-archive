@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37bf2816417b06f32d47a6378740824d",
+    "revision": "a0aa5166766e9dc471838b250af990bd",
     "url": "/audio-hardware-archive/index.html"
   },
   {
-    "revision": "f3ab58a65a2f096be122",
-    "url": "/audio-hardware-archive/static/js/2.01e64527.chunk.js"
+    "revision": "a35df0d932e140bb0467",
+    "url": "/audio-hardware-archive/static/js/2.1aa3602c.chunk.js"
   },
   {
     "revision": "216e537bacc64f9dbaabd26649a9ab95",
-    "url": "/audio-hardware-archive/static/js/2.01e64527.chunk.js.LICENSE.txt"
+    "url": "/audio-hardware-archive/static/js/2.1aa3602c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a70e012cde9b4afa1dc0",
-    "url": "/audio-hardware-archive/static/js/main.4d571519.chunk.js"
+    "revision": "3907909cd84640e35fcc",
+    "url": "/audio-hardware-archive/static/js/main.bd55e89d.chunk.js"
   },
   {
     "revision": "f6cb8402f1e72d9a9b76",
