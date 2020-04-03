@@ -1,6 +1,7 @@
 {
   "name": "audio-hardware-archive",
   "version": "0.1.0",
+  "homepage": "http://martinfoakes.github.io/audio-hardware-archive/",
   "private": true,
   "author": "Martin Foakes",
   "dependencies": {
@@ -62,6 +63,7 @@
     "eslint-plugin-jsx-a11y": "^5.0.1",
     "eslint-plugin-react": "7.19.0",
     "eslint-plugin-react-hooks": "^1.6.1",
+    "gh-pages": "^2.2.0",
     "stylelint": "^10.1.0",
     "stylelint-config-recommended": "^2.2.0",
     "stylelint-config-styled-components": "^0.1.1",
@@ -71,6 +73,7 @@
     "start": "node scripts/start.js",
     "start:remote": "node scripts/start.js -H 0.0.0.0",
     "build": "node scripts/build.js",
+    "deploy": "gh-pages -d build",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
