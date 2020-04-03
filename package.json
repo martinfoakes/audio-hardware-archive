@@ -1,7 +1,7 @@
 {
   "name": "audio-hardware-archive",
   "version": "0.1.0",
-  "homepage": "http://martinfoakes.github.io/audio-hardware-archive/",
+  "homepage": "https://martinfoakes.github.io/audio-hardware-archive/",
   "private": true,
   "author": "Martin Foakes",
   "dependencies": {
