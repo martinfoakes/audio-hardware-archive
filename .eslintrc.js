@@ -2,17 +2,18 @@ module.exports = {
   globals: {
     __PATH_PREFIX__: true,
   },
-  "extends": "airbnb",
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
+  extends: "airbnb",
+  parser: "babel-eslint",
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
-  "rules": {
-    "curly": [2, "all"],
+  rules: {
+    // "comma-dangle": ["error", "never"],
+    curly: [2, "all"],
     "func-names": 0,
     "import/extensions": 0,
     "import/no-duplicates": 0,
@@ -26,10 +27,10 @@ module.exports = {
     "no-restricted-globals": 0,
     "no-restricted-syntax": 0,
     "no-trailing-spaces": 2,
-    "no-unused-expressions": ["error", {"allowTernary": true}],
+    "no-unused-expressions": ["error", { allowTernary: true }],
     "no-unused-vars": 2,
     "prefer-arrow-callback": 0,
-    "quotes": ["error", "single"],
+    quotes: ["error", "double"],
     "react/jsx-no-target-blank": 2,
     "react/jsx-wrap-multilines": 0,
     "react/no-deprecated": 0,
@@ -38,22 +39,22 @@ module.exports = {
     "react/require-default-props": 0,
     "react/jsx-no-literals": 2,
     "require-jsdoc": 0,
-    "semi": 2,
+    semi: 2,
     "space-infix-ops": 2,
   },
-  "globals": {
-    "alert": true,
-    "android": true,
-    "describe": true,
-    "document": true,
-    "expect": true,
-    "history": true,
-    "it": true,
-    "location": true,
-    "navigator": true,
-    "sessionStorage": true,
-    "window": true,
-    "jest": true,
-    "beforeEach": true,
+  globals: {
+    alert: true,
+    android: true,
+    describe: true,
+    document: true,
+    expect: true,
+    history: true,
+    it: true,
+    location: true,
+    navigator: true,
+    sessionStorage: true,
+    window: true,
+    jest: true,
+    beforeEach: true,
   },
-}
+};
