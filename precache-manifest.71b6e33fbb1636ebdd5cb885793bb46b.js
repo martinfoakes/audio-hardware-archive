@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4119c47d81c26fafbe580ceec7037268",
+    "revision": "8ed47db1601efc4a6de6950e0aa4d595",
     "url": "/audio-hardware-archive/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/audio-hardware-archive/static/js/2.01e64527.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c170124f1224ff4d635",
-    "url": "/audio-hardware-archive/static/js/main.0c6897b0.chunk.js"
+    "revision": "b8733235a773213fe25b",
+    "url": "/audio-hardware-archive/static/js/main.f9cb2237.chunk.js"
   },
   {
     "revision": "f6cb8402f1e72d9a9b76",
