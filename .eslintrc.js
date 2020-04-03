@@ -12,7 +12,7 @@ module.exports = {
     },
   },
   rules: {
-    // "comma-dangle": ["error", "never"],
+    "arrow-parens": 0,
     curly: [2, "all"],
     "func-names": 0,
     "import/extensions": 0,
