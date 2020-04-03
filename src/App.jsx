@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import styled from "styled-components";
 
 import Home from "./Containers/Home/Home";
@@ -30,7 +30,7 @@ const HomeLink = styled.a`
 
 function App() {
   return (
-    <Router>
+    <Router basename="/">
       <AppBody>
         <AppHeader>
           <HomeLink href="/">

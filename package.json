@@ -2,7 +2,6 @@
   "name": "audio-hardware-archive",
   "version": "0.1.0",
   "homepage": "https://martinfoakes.github.io/audio-hardware-archive/",
-  "private": true,
   "author": "Martin Foakes",
   "dependencies": {
     "@svgr/webpack": "4.3.3",
@@ -73,6 +72,7 @@
     "start": "node scripts/start.js",
     "start:remote": "node scripts/start.js -H 0.0.0.0",
     "build": "node scripts/build.js",
+    "predeploy": "node scripts/build.js",
     "deploy": "gh-pages -d build",
     "test": "node scripts/test.js"
   },
