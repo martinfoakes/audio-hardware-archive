@@ -3,16 +3,16 @@ import React from "react";
 
 import { playAudio } from "../../Utils/audio_helper";
 import { KeyList } from "../../Components";
-import Kick from "./audio/BD0.WAV";
-import Clap from "./audio/HCP.WAV";
-import CowB from "./audio/COW.WAV";
-import Crash from "./audio/CRS.WAV";
-import HighH from "./audio/HHC.WAV";
-import Tom from "./audio/HT.WAV";
-import OpenH from "./audio/HHO.WAV";
-import Ride from "./audio/RID.WAV";
-import Rim from "./audio/RIM.WAV";
-import Snare from "./audio/SD0.WAV";
+import Kick from "../../Audio/Tr707/BD0.mp3";
+import Clap from "../../Audio/Tr707/HCP.mp3";
+import CowB from "../../Audio/Tr707/COW.mp3";
+import Crash from "../../Audio/Tr707/CRS.mp3";
+import HighH from "../../Audio/Tr707/HHC.mp3";
+import Tom from "../../Audio/Tr707/HT.mp3";
+import OpenH from "../../Audio/Tr707/HHO.mp3";
+import Ride from "../../Audio/Tr707/RID.mp3";
+import Rim from "../../Audio/Tr707/RIM.mp3";
+import Snare from "../../Audio/Tr707/SD0.mp3";
 
 const play = (e) => {
   const audioSrc = {
